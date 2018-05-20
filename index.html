@@ -7,6 +7,12 @@
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 <style type="text/css">
 
+button{
+background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+}
 
 
 </style>
@@ -16,24 +22,32 @@
 
 <body>
 
-<nav class="nav">
-  <a class="nav-link active" href="#">MVC APP</a>
-  <a class="nav-link disabled" href="#">Sign in</a>
-  <a class="nav-link disabled" href="#">Sign up</a>
-  <a class="nav-link disabled" href="#">Profile</a>
-  <a class="nav-link disabled" href="#">Comments</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">MVC APP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#">Sign in <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Sign up</a>
+      <a class="nav-item nav-link" href="#">Profile</a>
+      <a class="nav-item nav-link disabled" href="#">Comments</a>
+    </div>
+  </div>
 </nav>
 
 
-	<h1> Welcome sign in</h1>
+	<h1 style="text-align:center"> Welcome sign in</h1>
 	<div class="container">
     <input type="text" placeholder="Email Address" name="uname" required>
     <div class="container">
     <input type="text" placeholder="Password" name="uname" required>
 
 </div>
-<button type="submit">Sign in</button>
+<h6 style="text-align:center" ><button type="button"><font size="1"> Sign in </font></button></h6>
+
 
 	<h6>Don't have an account? Signup,it's free.</h6>
 
