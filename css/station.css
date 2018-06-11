@@ -1,0 +1,63 @@
+<style type="text/css">
+
+button{
+background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+}
+
+.navbar{
+	background-color: lightgrey;
+}
+
+footer {
+    position: fixed;
+    padding-bottom: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+
+#email{
+	width: 300px;
+	margin-left: 0px;
+}
+
+#password{
+	width: 300px;
+
+}
+#btn{
+	width: 300px;
+	margin-right: 5px;
+}
+
+#heading{
+	margin-right: 5px;
+}
+
+#brand{
+	color: black;
+}
+.page-heading{
+	margin-top: 50px;
+}
+#footer-text{
+	margin-left: 200px;
+	text-align: center;
+
+}
+#align-right{
+	margin-left: 200px;
+}
+
+</style>
+
